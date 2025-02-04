@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library.  When selecting an image from the device's gallery, the image uri returned sometimes contains a special character that causes the image to fail to load.  This doesn't happen consistently, making debugging difficult.  The issue only appears on Android devices.
